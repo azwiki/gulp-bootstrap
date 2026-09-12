@@ -1,0 +1,8 @@
+// main.js — site-specific JS goes here
+
+document.addEventListener('DOMContentLoaded', function () {
+  var yearEl = document.getElementById('year');
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
+});

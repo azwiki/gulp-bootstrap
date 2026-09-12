@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+@@include('_head.html', {
+  "title": "gulp-bootstrap — starter",
+  "description": "Minimal Gulp 4 + Bootstrap 5.3 starter — a build pipeline, not a website template",
+  "keywords": "bootstrap, gulp, starter, blank"
+})
+</head>
+<body>
+
+@@include('_navbar.html', {
+  "siteName": "gulp-bootstrap"
+})
+
+<main class="container py-5">
+  <h1>Bootstrap 5.3 + Gulp 4 starter</h1>
+  <p class="lead">Sanity check — confirms gulp-file-include, SCSS compilation, and Bootstrap CSS/JS are wired up correctly.</p>
+  <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Bootstrap JS is working">
+    Hover me
+  </button>
+</main>
+
+@@include('_footer.html', {
+  "siteName": "gulp-bootstrap"
+})
+
+@@include('_scripts.html')
+
+<script>
+  // sanity check: Bootstrap tooltips need manual init in 5.3
+  document.addEventListener('DOMContentLoaded', function () {
+    var tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    tooltipTriggerList.forEach(function (el) { new bootstrap.Tooltip(el); });
+  });
+</script>
+</body>
+</html>

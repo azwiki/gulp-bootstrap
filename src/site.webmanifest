@@ -1,0 +1,8 @@
+{
+  "name": "gulp-bootstrap",
+  "short_name": "gulp-bootstrap",
+  "icons": [],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

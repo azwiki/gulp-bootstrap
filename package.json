@@ -2,8 +2,15 @@
   "name": "gulp-bootstrap",
   "version": "1.0.0",
   "description": "Minimal Gulp 4 + Bootstrap 5.3 starter — a build pipeline, not a website template. No theme, no design system, no third-party UI plugins.",
-  "private": true,
+  "private": false,
   "homepage": "https://github.com/azwiki/gulp-bootstrap/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azwiki/gulp-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azwiki/gulp-bootstrap/issues"
+  },
   "author": "AZWiki",
   "license": "MIT",
   "scripts": {

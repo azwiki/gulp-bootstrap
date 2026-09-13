@@ -1,3 +1,4 @@
+![Gulp Bootstrap](src/assets/img/screenshot.webp)
 # gulp-bootstrap
 
 A minimal Gulp 4 + Bootstrap 5.3 starter for static site development.
